@@ -1,6 +1,7 @@
 import {CryptoCoin} from './cryptocoin';
 
 export class AllCoins {
+    [x: string]: any;
 
     coins: CryptoCoin[] = [];
 
